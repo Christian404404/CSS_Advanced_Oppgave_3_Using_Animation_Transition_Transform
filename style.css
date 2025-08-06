@@ -60,6 +60,7 @@ footer {
   height: 100%;
   animation: flyNyanCat 4s linear infinite;
   z-index: 0;
+  pointer-events: none;
 }
 
 /* @keyframes flyNyanCat {
@@ -110,10 +111,26 @@ footer {
 .catNap img {
   height: 100px;
   width: auto;
-  z-index: 800;
+  z-index: 9999;
+  pointer-events: auto;
 }
 
 .catNap img:hover {
-  transition: ease-in-out 900ms;
-  transform: scale(5) rotate(10deg);
+  transition: ease-in-out 2000ms;
+  transform: scale(3) rotate(360deg);
+}
+
+.magicTextBox {
+  align-self: flex-end;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  border: #ff10f0 solid 2px;
+  padding: 1.5rem;
+  z-index: 100;
+  transition: ease-in-out 1000ms;
+  background-color: purple;
+}
+
+.magicTextBox:hover {
+  opacity: 0;
 }

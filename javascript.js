@@ -5,7 +5,7 @@ function spawnNyanCat() {
   cat.className = "jumpingCat";
   cat.style.top = "200px";
   cat.style.left = "-100px";
-  cat.style.zIndex = 0;
+  cat.style.zIndex = -10;
   const img = document.createElement("img");
   img.src = "img/nyanCat.gif";
   img.alt = "crazy nyanCat spawned";
