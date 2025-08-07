@@ -25,5 +25,5 @@ function recursionCat() {
   cat.appendChild(img);
   document.getElementById("catContainer").appendChild(cat);
   catCount++;
-  setTimeout(recursionCat, 300);
+  setTimeout(recursionCat, 150);
 }

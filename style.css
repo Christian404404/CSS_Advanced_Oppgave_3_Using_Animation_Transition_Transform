@@ -131,9 +131,8 @@ footer {
   animation-duration: 2s, 4s;
   animation-iteration-count: infinite, infinite;
   animation-timing-function: ease-in-out, linear;
-  animation-delay: 1.5s;
-  align-self: flex-end;
-  margin: 0 3rem 3rem 0;
+  align-self: flex-start;
+  margin: 5rem 3rem 3rem 0;
   font-size: 1.5rem;
   background-color: black;
   color: whitesmoke;
@@ -141,28 +140,52 @@ footer {
   padding: 0.5rem;
 }
 
+.doNotClick:hover {
+  /* filter: opacity(0); */
+  transform: scale(5);
+  transition: ease-in-out 100ms;
+}
+
 @keyframes UltimateNyan-KEN {
   0% {
+    background-color: black;
   }
   10% {
+    background-color: #ff10f0;
+    color: black;
   }
   20% {
+    background-color: blanchedalmond;
   }
   30% {
+    background-color: antiquewhite;
   }
   40% {
+    background-color: red;
   }
   50% {
+    background-color: black;
+    color: whitesmoke;
   }
   60% {
+    background-color: blue;
+    color: tomato;
   }
   70% {
+    background-color: green;
+    color: yellow;
   }
   80% {
+    background-color: purple;
+    color: white;
   }
   90% {
+    background-color: orange;
+    color: black;
   }
   100% {
+    background-color: turquoise;
+    color: brown;
   }
 }
 
